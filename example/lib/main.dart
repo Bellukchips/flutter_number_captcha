@@ -57,31 +57,31 @@ class _MyAppState extends State<MyApp> {
           children: [
             TextButton(
               onPressed: () async {
-                final bool test = await FlutterNumberCaptcha.show(
-                  context,
-                  titleText: 'Enter correct number',
-                  placeholderText: 'Enter Number',
-                  checkCaption: 'Check',
-                  accentColor: Colors.blue,
-                  invalidText: 'Invalid code',
-                );
-                // TODO: Do whatever you want with the result!
-                print(test);
+                // final bool test = await FlutterNumberCaptcha.show(
+                //   context,
+                //   titleText: 'Enter correct number',
+                //   placeholderText: 'Enter Number',
+                //   checkCaption: 'Check',
+                //   accentColor: Colors.blue,
+                //   invalidText: 'Invalid code',
+                // );
+                // // TODO: Do whatever you want with the result!
+                // print(test);
               },
               child: const Text('Open Default Captcha'),
             ),
             TextButton(
               onPressed: () async {
-                final bool test = await FlutterNumberCaptcha.show(
-                  context,
-                  titleText: 'Resuelva el captcha',
-                  placeholderText: 'Introduzca el número',
-                  checkCaption: 'Comprobar',
-                  invalidText: "Número inválido",
-                  accentColor: Colors.deepPurple,
-                );
-                // TODO: Do whatever you want with the result!
-                print(test);
+                // final bool test = await FlutterNumberCaptcha.show(
+                //   context,
+                //   titleText: 'Resuelva el captcha',
+                //   placeholderText: 'Introduzca el número',
+                //   checkCaption: 'Comprobar',
+                //   invalidText: "Número inválido",
+                //   accentColor: Colors.deepPurple,
+                // );
+                // // TODO: Do whatever you want with the result!
+                // print(test);
               },
               child: const Text('Open Captcha - Customized'),
             ),
